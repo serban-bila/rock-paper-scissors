@@ -1,0 +1,163 @@
+/* body {
+  background-color: #ead8cf;
+  color: #fff;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  border: 5px solid #4b5169;
+  border-radius: 20px;
+  width: 10em;
+  margin-top: 10vh;
+  padding: 0.5em;
+}
+
+.left {
+  float: left;
+  margin-left: 10em;
+  margin-top: 20vh;
+}
+
+.right {
+  float: right;
+  padding: 1em;
+  margin-right: 10em;
+  margin-top: 10vh;
+}
+
+.button {
+  margin-right: 1em;
+  background-color:#4b5169;
+  border-radius: 0.5em;
+  width: 6em;
+  height: 2em;
+  color: #fff;
+  font-size: 2em;
+}
+
+.change-mode {
+  margin: 0.5em;
+  background-color:#4b5169;
+  border-radius: 0.5em;
+  color: #fff;
+}
+
+h1 {
+  font-size: 5em;
+  color: #4b5169;
+}
+
+h2 {
+  font-size: 3em;
+  color: #4b5169;
+}
+
+h3 {
+  color:#4b5169;
+  font-size: 2.5em;
+} */
+
+/* html {
+  height: 100%;
+} */
+
+body {
+  height: 100%;
+  background-color: #ead8cf;
+  color: #4b5169;
+  font-family: Lucida;
+}
+
+.header{
+  display: block;
+  margin-left: 20vw;
+  border: 0.1em solid #4b5169;
+  border-radius: 20px;
+  width: 5em;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.left{
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.right{
+  font-size: 2em;
+  text-align: center;
+}
+
+.button {
+  display: inline;
+  background-color: #4b5169;
+  width: 5em;
+  height: 3em;
+  font-size: 0.5em;
+  color: #ead8cf;
+  text-align: center;
+  margin-right: 1em;
+  border-radius: 0.5em;
+}
+
+@media only screen and (min-width: 758px ) {
+
+  .header {
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid #4b5169;
+    border-radius: 20px;
+    width: 10em;
+    margin-top: 10vh;
+    padding: 0.5em;
+  }
+
+  .left{
+    display: inline;
+    float: left;
+    margin-left: 5em;
+    margin-top: 20vh;
+    width: 20vw;
+    text-align: left;
+  }
+  
+  .right{
+    display: inline;
+    float: right;
+    padding: 1em;
+    margin-right: 5em;
+    margin-top: 10vh;
+    width: 20vw;
+    text-align: right;
+  }
+
+  .button{
+    display: inline-block;
+    margin-right: 0.5em;
+    background-color:#4b5169;
+    border-radius: 0.5em;
+    width: 6em;
+    height: 4em;
+    color: #fff;
+    font-size: 0.5em;
+  }
+
+  h1 {
+    font-size: 5em;
+    color: #4b5169;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    color: #4b5169;
+  }
+
+  h3 {
+    color:#4b5169;
+    font-size: 1em;
+  }
+}
