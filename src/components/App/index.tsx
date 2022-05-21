@@ -54,7 +54,6 @@ function App () {
 
   return (
     <div className="App">
-      {/* <button className='change-mode'>change </button> */}
       <h1 className='header'>rock paper scissors</h1>
       <div className='left'>
         <button className='button' value='rock' onClick={chooseRock}>rock</button>
