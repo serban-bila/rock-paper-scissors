@@ -8,13 +8,14 @@ body {
 
 .header{
   display: block;
-  margin-left: 20vw;
+  margin: 0 auto;
+  margin-top: 10%;
   border: 0.1em solid #4b5169;
   border-radius: 20px;
   width: 5em;
   font-size: 3em;
   text-align: center;
-  margin-top: 0.5em;
+
 }
 
 .left{
@@ -22,6 +23,12 @@ body {
   font-size: 2em;
   text-align: center;
   margin-top: 0.5em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10% 0 10%;
 }
 
 .right{
@@ -37,7 +44,6 @@ body {
   font-size: 0.5em;
   color: #ead8cf;
   text-align: center;
-  margin-right: 1em;
   border-radius: 0.5em;
 }
 
@@ -58,8 +64,15 @@ body {
     float: left;
     margin-left: 5em;
     margin-top: 20vh;
-    width: 20vw;
+    width: 30vw;
     text-align: left;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0 10% 0 10%;
   }
   
   .right{
@@ -74,7 +87,6 @@ body {
 
   .button{
     display: inline-block;
-    margin-right: 0.5em;
     background-color:#4b5169;
     border-radius: 0.5em;
     width: 6em;

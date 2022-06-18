@@ -56,9 +56,11 @@ function App () {
     <div className="App">
       <h1 className='header'>rock paper scissors</h1>
       <div className='left'>
-        <button className='button' value='rock' onClick={chooseRock}>rock</button>
-        <button className='button' value='paper' onClick={choosePaper}>paper</button>
-        <button className='button' value='scissors' onClick={chooseScissors}>scissors</button>
+        <div className='button-container'>
+          <button className='button' value='rock' onClick={chooseRock}>rock</button>
+          <button className='button' value='paper' onClick={choosePaper}>paper</button>
+          <button className='button' value='scissors' onClick={chooseScissors}>scissors</button>
+        </div>
         <h3 className='result'>{result}</h3>
       </div>
       <div className="right">
