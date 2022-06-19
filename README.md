@@ -4,12 +4,12 @@
 
 My first React project. It started as a vanilla Javascript project which then got ported to React.
 
-Tools I came out with after finishing this project: 
+Tools I aquired during this project: 
 
-  -> The use of useState and useEffect
+    -> The use of useState and useEffect
  
-  -> The understanding of reflow
+    -> The understanding of reflow
   
-  -> Working with and understanding JSX in React
+    -> Working with and understanding JSX in React
   
-  -> Designing for mobile first
+    -> Designing for mobile first
